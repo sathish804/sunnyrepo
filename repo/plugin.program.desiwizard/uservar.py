@@ -15,7 +15,7 @@ ART = os.path.join(PATH, 'resources', 'media')
 #########################################################
 ADDONTITLE = '[COLOR limegreen][B]Desi[/B][/COLOR]Wizard'
 BUILDERNAME = 'DesiWizard'
-EXCLUDES = [ADDON_ID, 'repository.desiwizard']
+EXCLUDES = [ADDON_ID, 'repository.sunnyrepo']
 # Text File with build info in it. Please read https://github.com/a4k-openproject/plugin.program./wiki/Installing-Builds
 BUILDFILE = 'https://raw.githubusercontent.com/sathish804/plugin.program.desiwizard/master/build.txt'
 # How often you would like it to check for build updates in days
@@ -94,13 +94,13 @@ AUTOUPDATE = 'Yes'
 #        Auto Install Repo If Not Installed             #
 #########################################################
 # Enable Auto Install 'Yes' or 'No'
-AUTOINSTALL = 'No'
+AUTOINSTALL = 'Yes'
 # Addon ID for the repository
-REPOID = 'repository.desiwizard'
+REPOID = 'repository.sunnyrepo'
 # Url to Addons.xml file in your repo folder(this is so we can get the latest version)
-REPOADDONXML = 'https://'
+REPOADDONXML = 'https://raw.githubusercontent.com/sathish804/sunnyrepo/master/repo/zips/addons.xml'
 # Url to folder zip is located in
-REPOZIPURL = 'https://'
+REPOZIPURL = 'https://github.com/sathish804/sunnyrepo/blob/master/repo/zips/repository.sunnyrepo/repository.sunnyrepo-1.0.0.zip?raw=true'
 #########################################################
 
 #########################################################
