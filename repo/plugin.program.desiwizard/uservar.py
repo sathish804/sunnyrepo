@@ -17,7 +17,7 @@ ADDONTITLE = '[COLOR limegreen][B]Desi[/B][/COLOR]Wizard'
 BUILDERNAME = 'DesiWizard'
 EXCLUDES = [ADDON_ID, 'repository.sunnyrepo']
 # Text File with build info in it. Please read https://github.com/a4k-openproject/plugin.program./wiki/Installing-Builds
-BUILDFILE = 'https://raw.githubusercontent.com/sathish804/plugin.program.desiwizard/master/build.txt'
+BUILDFILE = 'https://raw.githubusercontent.com/sathish804/sunnyrepo/master/build.txt'
 # How often you would like it to check for build updates in days
 # 0 being every startup of kodi
 UPDATECHECK = 0
