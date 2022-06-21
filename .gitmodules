@@ -1,3 +1,6 @@
 [submodule "repo/plugin.program.desiwizard"]
 	path = repo/plugin.program.desiwizard
 	url = https://github.com/sathish804/plugin.program.desiwizard
+[submodule "repo/script.ezmaintenanceplus"]
+	path = repo/script.ezmaintenanceplus
+	url = https://github.com/sathish804/script.ezmaintenanceplus
