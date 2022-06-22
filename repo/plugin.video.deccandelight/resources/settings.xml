@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+	<category label="General">
+		<setting type="lsep" label="Cache Control" />
+		<setting label="Clear Cache" type="action" id="clear_cache" action="RunPlugin(plugin://plugin.video.deccandelight/?action=0)"/>
+		<setting label="Cache Timeout in hours" type="number" id="timeout" default="6"/> 
+		<setting type="lsep" label="Download Location" />
+		<setting id="dlfolder" type="folder" label="Download Folder" default=""/>
+		<setting type="lsep" label="Meta Data" />
+		<setting id="meta" type="bool" label="Display Metadata for Movies" default="false"/>
+		<setting type="lsep" label="Mirror sites" />
+		<setting id="mirror" type="bool" label="Use Mirror sites for India" default="false"/>
+	</category>
+	<category label="Tamil Scrapers">
+		<setting id="tgun" type="bool" label="Tamil Gun" default="true"/>
+		<setting id="tamilian" type="bool" label="Tamilian" default="true"/>
+		<setting id="tyogi" type="bool" label="Tamil Yogi" default="true"/>
+		<setting id="thdbox" type="bool" label="Tamil HD Box" default="true"/>
+		<setting id="bbt" type="bool" label="BigBoss Tamil" default="true"/>
+		<setting id="skytamil" type="bool" label="sky Tamil" default="true"/>
+		<setting id="tdhool" type="bool" label="Tamil Dhool" default="true"/>
+	</category>
+	<category label="Telugu Scrapers">
+		<setting id="awatch" type="bool" label="Andhra Watch" default="true"/>
+		<setting id="ibomma" type="bool" label="iBOMMA" default="true"/>
+		<setting id="manatv" type="bool" label="Mana Telugu TV" default="true"/>
+	</category> 
+	<category label="Malayalam Scrapers">
+		<setting id="torm" type="bool" label="TOR Malayalam" default="true"/>
+	</category>
+	<category label="Kannada Scrapers">
+		<setting id="kcine" type="bool" label="Kannada Cine" default="true"/>
+	</category>
+	<category label="Hindi Scrapers">
+		<setting id="hlinks" type="bool" label="Hindi Links 4 U" default="true"/>
+		<setting id="wapne" type="bool" label="Apne TV" default="true"/>
+		<setting id="desit" type="bool" label="Desi Tashan" default="true"/>
+		<setting id="gmala" type="bool" label="Hindi Geetmala" default="true"/>
+		<setting id="pdesi" type="bool" label="Play Desi" default="true"/>
+		<setting id="yodesi" type="bool" label="Yo Desi" default="true"/>
+	</category>
+	<category label="Urdu Scrapers">
+		<setting id="ary" type="bool" label="Ary Digital" default="true"/>
+		<setting id="geo" type="bool" label="Geo TV" default="true"/>
+		<setting id="hum" type="bool" label="Hum TV" default="true"/>
+	</category>
+	<category label="Multi Language Scrapers">
+		<setting id="b2t" type="bool" label="Bolly 2 Tolly" default="true"/>
+		<setting id="bmov" type="bool" label="Bharat Movies" default="true"/>
+		<setting id="cinevez" type="bool" label="Cine Vez" default="true"/>
+		<setting id="einthusan" type="bool" label="Einthusan" default="true"/>
+		<setting id="flinks" type="bool" label="Film Links 4 U" default="true"/>
+		<setting id="hflinks" type="bool" label="Film Links 4 U (Pro)" default="true"/>
+		<setting id="mrulz" type="bool" label="Movie Rulez" default="true"/>
+		<setting id="mghar" type="bool" label="Movies Ghar" default="true"/>
+		<setting id="omg" type="bool" label="Online Movies Gold" default="true"/>
+		<setting id="wompk" type="bool" label="Online Movies PK" default="true"/>
+		<setting id="onmw" type="bool" label="Online Movie Watch" default="true"/>
+	</category>
+	<category label="Miscellaneous">
+		<setting label="Mature Content" type="lsep"/>
+		<setting label="Enable Mature content" type="bool" id="adult" default="false"/>
+	</category>	
+</settings>
