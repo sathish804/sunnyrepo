@@ -1,0 +1,6 @@
+[B]Version 2.0.2[/B]
+- Login URL Changed
+[B]Version 2.0.1[/B]
+- Bugs Fixing
+[B]Version 2.0.0[/B]
+- First release
