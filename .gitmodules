@@ -4,3 +4,6 @@
 [submodule "repo/script.ezmaintenanceplus"]
 	path = repo/script.ezmaintenanceplus
 	url = https://github.com/sathish804/script.ezmaintenanceplus
+[submodule "repo/plugin.video.seren"]
+	path = repo/plugin.video.seren
+	url = https://github.com/nixgates/plugin.video.seren

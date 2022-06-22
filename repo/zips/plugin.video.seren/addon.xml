@@ -1,49 +1,19 @@
-<?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="plugin.program.desiwizard" name="[COLOR limegreen]Desi[/COLOR]Wizard" version="1.0.1" provider-name="drinfernoo, slamious">
-    <requires>
-        <import addon="xbmc.python" version="3.0.0" />
-        <import addon="script.module.requests" />
-        <import addon="script.module.six" />
-        <import addon="script.kodi.android.update" optional="true" version="1.1.7" />
-        <import addon="script.speedtester" optional="true" version="1.1.2" />
-    </requires>
-    
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-    </extension>
-    
-    <extension point="xbmc.service" library="startup.py" start="startup" />
-    
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">[COLOR limegreen]Desi[/COLOR]Wizard</summary>
-        <description lang="en">[COLOR limegreen]Desi[/COLOR]Wizard offers many maintenance features, selective add-on data saving, and automated build installs.</description>
-        <platform>all</platform>
-        <reuselanguageinvoker>false</reuselanguageinvoker>
-        <source>https://github.com/sathish804/plugin.program.desiwizard/</source>
-        <news>
-1.0.0
- - Initial Commit
-        </news>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.png</fanart>
-        </assets>
-    </extension>
-</addon><addon id="plugin.video.seren" version="2.2.1" name="Seren" provider-name="Nixgates">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.seren" version="2.2.1" name="Seren" provider-name="Nixgates">
     <requires>
         <import addon="xbmc.addon" version="17.9.910" />
-        <import addon="script.module.future" version="0.17.1" />
+        <import addon="script.module.future" version="0.17.1"/>
         <import addon="script.module.requests" version="2.22.0" />
-        <import addon="script.module.beautifulsoup4" version="4.6.2" />
-        <import addon="context.seren" version="2.2.0" />
-        <import addon="script.module.inputstreamhelper" version="0.3.3" optional="true" />
-        <import addon="script.module.unidecode" version="1.1.1" />
-        <import addon="script.module.myconnpy" version="1.1.7" />
+        <import addon="script.module.beautifulsoup4" version="4.6.2"/>
+        <import addon="context.seren" version="2.2.0"/>
+        <import addon="script.module.inputstreamhelper" version="0.3.3" optional="true"/>
+        <import addon="script.module.unidecode" version="1.1.1"/>
+        <import addon="script.module.myconnpy" version="1.1.7"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="seren.py">
         <provides>video</provides>
     </extension>
-    <extension point="xbmc.service" library="service.py" />
+    <extension point="xbmc.service" library="service.py"/>
     <extension point="xbmc.addon.metadata">
         <reuselanguageinvoker>false</reuselanguageinvoker>
         <summary lang="en">Seren - Modular Multi-source Addon</summary>
@@ -53,7 +23,7 @@
         </description>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-        <forum />
+        <forum/>
         <website>https://github.com/nixgates/plugin.video.seren</website>
         <source>https://github.com/nixgates/plugin.video.seren</source>
         <disclaimer lang="en">
@@ -128,7 +98,7 @@
             [BUG] Increase read timeout for trakt when milling all seasons
             [BUG] Try close session for trakt.tv
             [BUG] Double widget refresh can occur when playback ends and trakt manager
-            [BUG] Trakt Manager --&gt; Hide Show
+            [BUG] Trakt Manager --> Hide Show
             [BUG] Duplicate episodes when trakt_id changes
             [BUG] Tvdb fallback is not working as it should
             [BUG] TMDB Show meta never up to par
@@ -179,7 +149,7 @@
             Changelog 2.1.6
             Work around Sqlite on Leia under Windows does not support boolean named values
             Ensure we fetch all pages for syncing ratings and ignore cache for bookmark/hidden sync
-            Fix collections.Mapping import for Python &gt;= 3.3
+            Fix collections.Mapping import for Python >= 3.3
 
             Changelog 2.1.5
             Workaround trakt shitty season data
@@ -515,43 +485,4 @@
             Debrid account status now visible from Seren settings
         </news>
     </extension>
-</addon><addon id="repository.sunnyrepo" name="sunnyrepo" version="1.0.1" provider-name="sunny">
-    <extension point="xbmc.addon.repository" name="sunnyrepo">
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/sathish804/sunnyrepo/master/repo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/sathish804/sunnyrepo/master/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/sathish804/sunnyrepo/master/repo/zips/</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>sunnyrepo</summary>
-        <description>Sunny Test Repo</description>
-        <disclaimer />
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
-</addon><addon id="script.ezmaintenanceplus" name="EZ Maintenance+" version="2022.06.21" provider-name="aenema, peno">
-  <requires>
-    <import addon="script.module.requests" version="1.0.0" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-     <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="service.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-	<summary>A Streamlined Utility Tool for Kodi</summary>
-	<description>No Bloatware, no Nonsense! Just Keep your Kodi sharp and clean with this utility tool... Now with a Custom Wizard.</description>
-    <language />
-    <platform>all</platform>
-    <license>The MIT License</license>
-    <forum>-</forum>
-    <source>https://github.com</source>
-    <assets>
-	    <icon>icon.png</icon>
-	    <fanart>fanart.png</fanart>
-    </assets>
-  </extension>
-</addon></addons>
+</addon>
