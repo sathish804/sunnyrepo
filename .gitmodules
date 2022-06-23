@@ -7,3 +7,15 @@
 [submodule "repo/plugin.video.seren"]
 	path = repo/plugin.video.seren
 	url = https://github.com/nixgates/plugin.video.seren
+[submodule "repo/skin.arctic.horizon"]
+	path = repo/skin.arctic.horizon
+	url = https://github.com/jurialmunkey/skin.arctic.horizon.git
+[submodule "repo/skin.arctic.horizon.2"]
+	path = repo/skin.arctic.horizon.2
+	url = https://github.com/jurialmunkey/skin.arctic.horizon.2.git
+[submodule "repo/plugin.video.themoviedb.helper"]
+	path = repo/plugin.video.themoviedb.helper
+	url = https://github.com/jurialmunkey/plugin.video.themoviedb.helper.git
+[submodule "repo/skin.eminence.2"]
+	path = repo/skin.eminence.2
+	url = https://github.com/jurialmunkey/skin.eminence.2.git
