@@ -1188,6 +1188,38 @@ Add-on originally by doko.
 			<screenshot>resources/art/ss/3.png</screenshot>
 		</assets>
 	</extension>
+</addon><addon id="repository.thewarehouse" name="The WareHouse Repository" version="22.6.8" provider-name="[COLORpurple]• [COLORorchid]Tech [COLORdarkorchid]E [COLORplum]Coyote [COLORpurple]•[/COLOR]">
+    <extension point="xbmc.addon.repository" name="The WareHouse Repository">
+        <dir minversion="18.9.0">
+            <info compressed="false">https://raw.githubusercontent.com/warehousecrates/TheWareHouse/main/matrix/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/warehousecrates/TheWareHouse/main/matrix/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/warehousecrates/TheWareHouse/main/matrix/zips/</datadir>
+        </dir>
+        <dir minversion="18.0" maxversion="18.9.0">
+            <info compressed="false">https://raw.githubusercontent.com/warehousecrates/TheWareHouse/main/leia/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/warehousecrates/TheWareHouse/main/leia/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/warehousecrates/TheWareHouse/main/leia/zips/</datadir>
+        </dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/</datadir>
+		</dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>The WareHouse Repository</summary>
+        <description>The WareHouse Repository</description>
+        <platform>all</platform>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+    </extension>
 </addon><addon id="script.ezmaintenanceplus" name="EZ Maintenance+" version="2022.06.21" provider-name="aenema, peno">
   <requires>
     <import addon="script.module.requests" version="1.0.0" />
