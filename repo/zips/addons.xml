@@ -623,7 +623,7 @@ DeccanDelight and its developers [B]DO NOT[/B] host, create, or distribute any o
             Debrid account status now visible from Seren settings
         </news>
     </extension>
-</addon><addon id="plugin.video.themoviedb.helper" version="4.9.1" name="TheMovieDb Helper" provider-name="jurialmunkey">
+</addon><addon id="plugin.video.themoviedb.helper" version="4.10.0" name="TheMovieDb Helper" provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="3.0.0" />
   <import addon="script.module.requests" version="2.9.1" />
@@ -685,26 +685,6 @@ DeccanDelight and its developers [B]DO NOT[/B] host, create, or distribute any o
     <screenshot>resources/screenshot-01.jpg</screenshot>
     <screenshot>resources/screenshot-02.jpg</screenshot>
   </assets>
-<news>
-  - Improved PVR service matching
-  - Avoid unnecessary FanartTV re-requests
-  - Add In-Progress Episodes Trakt list
-  - Add Still to Watch Trakt list (In-Progress+Watchlist)
-  - Allow stacking of episodes from same show in calendar
-  - Fix collection matching and query encoding
-  - Better list filtering options
-  - Add cacheonly=true param for faster dialog widget loading
-  - Add script getter/setter functions for audio/subs in player
-  - Allow larger sync list items per page limits
-  - Fix plugincategory labels
-  - Fix randomised lists not refreshing
-  - Fix string formatter for update to Py3.7 in 19.3
-  - Fix fallback players when asserted value not available
-  - Allow both mark as watched/unwatched in Trakt options
-  - Update branding and icons
-  - Add temporary service pause for custom dialogs via Window.Property(TMDbHelper.ServicePause)
-  - Artwork monitor fixes
-</news>
 </extension>
 </addon><addon id="plugin.video.voot" version="2.0.7" name="Voot" provider-name="Ajay K">
 <requires>
@@ -1544,13 +1524,13 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, Subscene, Addic7ed
             <screenshot>resources/screenshot-07.jpg</screenshot>
         </assets>
     </extension>
-</addon><addon id="skin.arctic.horizon.2" name="Arctic Horizon 2" provider-name="jurialmunkey" version="0.2.9">
+</addon><addon id="skin.arctic.horizon.2" name="Arctic Horizon 2" provider-name="jurialmunkey" version="0.2.20">
     <requires>
         <import addon="xbmc.gui" version="5.15.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
         <import addon="script.skinvariables" version="1.0.0" />
-        <import addon="script.texturemaker" version="0.2.5" />
-        <import addon="plugin.video.themoviedb.helper" version="4.8.15" />
+        <import addon="script.texturemaker" version="0.2.7" />
+        <import addon="plugin.video.themoviedb.helper" version="4.9.2" />
         <import addon="resource.images.weatherfanart.multi" version="0.0.1" />
         <import addon="resource.images.weathericons.white" version="0.0.1" />
         <import addon="resource.images.studios.coloured" version="0.0.1" />
