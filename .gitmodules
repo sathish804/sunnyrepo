@@ -19,3 +19,6 @@
 [submodule "repo/skin.eminence.2"]
 	path = repo/skin.eminence.2
 	url = https://github.com/jurialmunkey/skin.eminence.2.git
+[submodule "repo/script.module.simpleeval"]
+	path = repo/script.module.simpleeval
+	url = https://github.com/mikesilvo164/script.module.simpleeval
